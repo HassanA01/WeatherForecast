@@ -26,8 +26,6 @@ def fetch_weather():
             print(f'The current weather in {city} is currently {weather} with a temperature of {temp_cel} degrees '
                   f'Celsius and feels like {feels_like} with the wind going upto {wind} mph')
 
-            print(f'')
-
         city = input("Enter another city to check or 'exit' to quit the application: ")
 
     print("\nThank you for using the Weather App. Have a good day.")
